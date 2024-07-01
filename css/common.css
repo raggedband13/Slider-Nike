@@ -1,0 +1,35 @@
+:root {
+    --color: red;
+    --color-optional: #061d4e;
+
+    --color-text: rgb(255,255,255);
+    --color-text-optional: rgb(37, 37, 37);
+    --color-text-light: rgb(160, 160, 160);
+
+    --bg: linear-gradient(-20deg, #061d4e, #182f65);
+
+    --font: 'Bebas Neue';
+    --font-decorative: 'Nickainley';
+
+    --fs-big: 18px;
+    --fs-semibig: 16px;
+    --fs: 14px;
+    --fs-middle: 12px;
+    --fs-small: 9px;
+
+    --br-big: 20px;
+    --br: 15px;
+    --br-middle: 10px;
+    --br-small: 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3 {
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
